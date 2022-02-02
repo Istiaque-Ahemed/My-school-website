@@ -10,7 +10,7 @@ import '../Carousel/slider.css';
 const Slider = () => {
     return (
         <Container>
-            <>
+            <Carousel>
                 <div>
                     <img src={'https://i.ibb.co/6b9xF3R/pexels-max-fischer-5212345.jpg'} />
 
