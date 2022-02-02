@@ -1,0 +1,113 @@
+.school-name{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Galada', cursive;
+    background: rgb(2,0,36);
+    border: 1px solid rgb(218, 218, 119);
+    
+}
+.school-name-1{
+    display: flex;
+}
+.BD-logo{
+    width: 286px;
+    padding: 50px;
+    margin-top: -6px;
+}
+.school-logo {
+    width: 250px;
+    height: 270px;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+.school-name span{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 41px 0 0 47px;
+    height: 92px;
+}
+.school-area-name{
+    margin-top: -91px;
+    font-size: 28px;}
+.school-area-name-1{
+    font-size: 23px;
+}
+
+/************** media query for mobile ************* */
+
+@media only screen and (max-width: 767px) {
+    .school-name{
+        background: rgb(2,0,36);
+        height: 91px;
+    }
+    .school-name span{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 10px 0 0 10px;
+        padding: 0;
+    }
+    .BD-logo{
+        width: 47px;
+        height: 48px;
+        padding: 0px;
+        margin: 16px;
+    }
+    .school-logo {
+        width: 64px;
+        height: 69px;
+        padding: 0;
+        margin: 3px 11px 11px 17px;}
+    .school-area-name-1{
+        font-size: 9px;
+    }
+    .school-area-name{
+        font-size: 10px;
+        margin-top: -60px;
+        margin-left: -6px;
+        margin-bottom: 7px;
+    }
+
+    
+}
+/************* media query for tab ************ */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    .school-name{
+        background: rgb(2,0,36);
+
+    }
+    .school-name span{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 49px;
+        margin: 10px 0 0 10px;
+        padding: 0;
+    }
+    .BD-logo{
+        width: 116px;
+        height: 116px;
+        padding: 0px;
+        margin: 16px;
+    }
+    .school-logo {
+        width: 130px;
+        height: 146px;
+        padding: 0;
+        margin: 0px 0px 1px 0px;
+    }
+    .school-area-name{
+        font-size: 23px;
+        margin-top: -63px;
+        margin-left: -6px;
+        margin-bottom: 7px;
+    }
+    .school-area-name-1{
+        font-size: 21px;
+    }
+
+}
+
+
+
+
