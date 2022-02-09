@@ -107,6 +107,25 @@
     }
 
 }
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    .school-name span{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 10px 0 5px 10px;
+        padding: 0;
+    }
+        .school-area-name{
+            font-size: 12px;
+            margin-top: -63px;
+            margin-left: -6px;
+            margin-bottom: 7px;
+        }
+        .school-area-name-1{
+            font-size: px;
+        }
+
+}
 
 
 

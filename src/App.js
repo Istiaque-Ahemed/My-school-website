@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import Slider from './Component/Carousel/Slider';
+import PostNotices from './Component/PostNotices/PostNotices';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={[<Header />, <Navber />, <Slider />]}></Route>
+          <Route path="/" element={[<Header />, <Navber />, <Slider />, <PostNotices />]}></Route>
 
         </Routes>
       </BrowserRouter>
