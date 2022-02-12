@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Slider from './Component/Carousel/Slider';
 import PostNotices from './Component/PostNotices/PostNotices';
+import Notices from './Component/Notices/Notices';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={[<Header />, <Navber />, <Slider />, <PostNotices />]}></Route>
+          <Route path="/" element={[<Header />, <Navber />, <Slider />, <Notices />, <PostNotices />]}></Route>
 
         </Routes>
       </BrowserRouter>
