@@ -1,0 +1,8 @@
+.noticess{
+    display: flex;
+}
+.notices-title{ 
+    background-color: lightblue;
+    padding: 12px;
+    margin-top: 14px;   
+}

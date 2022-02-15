@@ -20,7 +20,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={[<Header />, <Navber />, <Slider />, <Notices />, <PostNotices />]}></Route>
+          <Route path="/" element={[<Header />, <Navber />, <Slider />, <Notices />]}></Route>
 
         </Routes>
       </BrowserRouter>

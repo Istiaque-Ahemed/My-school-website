@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import ShowNotice from '../ShowNotices/ShowNotice';
 import '../Notices/Notices.css'
+import { Container } from 'react-bootstrap';
 
 const Notices = () => {
     const [notices, SetNotice] = useState([]);
@@ -13,13 +14,16 @@ const Notices = () => {
             .then(data => SetNotice(data))
     }, [])
     return (
-        <div className='noticess'>
+        <Container>
+            <div className='noticess'>
+                <p className='notices-title'>ঘোষণা</p>
 
 
-            <ShowNotice schoolNotice={notices} key={notices._id} />
+                <ShowNotice schoolNotice={notices} key={notices._id} />
 
 
-        </div>
+            </div>
+        </Container>
     );
 };
 

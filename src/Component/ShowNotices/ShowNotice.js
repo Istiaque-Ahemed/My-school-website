@@ -4,18 +4,19 @@ import { Container } from 'react-bootstrap';
 import '../ShowNotices/ShowNotice.css';
 
 const ShowNotice = ({ schoolNotice }) => {
-    console.log(schoolNotice)
+
     let shownotice = [];
-    schoolNotice.map(noticess => shownotice.push(noticess._id))
-    console.log(shownotice.join())
+    schoolNotice.map(noticess => shownotice.push(noticess.notice))
+
 
     return (
         <Container>
-            <div className="demo-1">
-                <h4>{shownotice.join()}</h4>
+            <div className='marquee'>
 
+                <div className='marqueeContentContainer'>
+                    <i class="fa-solid fa-flag"></i><p>{shownotice.join("  *")}</p>
+                </div>
             </div>
-            <p>ঘোষণা</p>
         </Container>
 
 
