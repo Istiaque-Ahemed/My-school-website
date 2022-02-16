@@ -29,9 +29,12 @@
 }
 .school-area-name{
     margin-top: -91px;
-    font-size: 28px;}
+    font-size: 28px;
+    text-align: center;
+}
 .school-area-name-1{
     font-size: 23px;
+    text-align: center;
 }
 
 /************** media query for mobile ************* */

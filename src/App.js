@@ -10,6 +10,7 @@ import {
 import Slider from './Component/Carousel/Slider';
 import PostNotices from './Component/PostNotices/PostNotices';
 import Notices from './Component/Notices/Notices';
+import Firstpage from './Component/FirstPage/Firstpage';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={[<Header />, <Navber />, <Slider />, <Notices />]}></Route>
+          <Route path="/" element={[<Header />, <Navber />, <Slider />, <Notices />, <Firstpage />]}></Route>
 
         </Routes>
       </BrowserRouter>
