@@ -14,4 +14,79 @@
  }
  .School-history{
      display:flex;
+     margin-bottom: 30px;
  }
+ .teacher-quotes{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin-bottom: 30px;
+ }
+ .teacher-quotes-1{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+ }
+ .teacher-quotes-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+    
+}
+ .first-hadinf{
+     margin-right: 30px;
+ }
+ .first-hadinf-1{
+     margin-right: 30px;
+     border: 1px solid black;
+ }
+ .first-hadinf-2{
+     margin-right: 30px;
+     border: 1px solid black;
+ }
+ .heading{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+     padding: 8px;
+     color: #fff;
+     
+ }
+ .heading-1{
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    padding: 8px;
+    color: #ffffff;
+
+ }
+ .heading-2{
+    background: linear-gradient(to right, #cb356b, #bd3f32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 8px;
+    color: #ffffff;
+
+ }
+ .heading-3{
+    background: linear-gradient(to right, #000046, #1cb5e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 8px;
+    color: #ffffff;
+
+ }
+ .heading-4 {
+    background: linear-gradient(to right, #283c86, #45a247); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 8px;
+    color: #ffffff;
+
+ }
+
+ .head-techar-bani{
+     display: flex ;
+ }
+ .img{
+     width: 30%;
+     height: 30%;
+     margin-right: 20px;
+
+ }
+ .img-1{
+    width: 30%;
+    height: 30%;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
