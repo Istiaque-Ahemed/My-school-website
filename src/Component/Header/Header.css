@@ -18,14 +18,15 @@
 .school-logo {
     width: 250px;
     height: 270px;
-    margin-left: 37px;
+    margin-left: 108px;
     margin-top: 10px;
 }
 .school-name span{
     font-weight: bold;
-    font-size: 80px;
-    margin: 41px 0 0 47px;
-    height: 92px;
+    font-size: 59px;
+    margin: 65px 0 0 134px;
+ 
+    height: 81px;
 }
 .school-area-name{
     margin-top: -91px;
@@ -120,7 +121,7 @@
     }
         .school-area-name{
             font-size: 12px;
-            margin-top: -63px;
+            margin-top: -50px;
             margin-left: -6px;
             margin-bottom: 7px;
         }
