@@ -11,3 +11,20 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+@media only screen and (max-width: 767px){
+    .studentSite{
+        border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 800;
+    }
+    .classroom{
+        width: 400px;
+        margin: 0px 0px 0px -1px;
+    }
+    .classroom p{
+        margin: 10px 0 0 0 ;
+    }
+}

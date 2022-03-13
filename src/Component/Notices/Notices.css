@@ -6,3 +6,9 @@
     padding: 12px;
     margin-top: 14px;   
 }
+@media only screen and (max-width: 767px) {
+    .notices-title{
+        padding: 6px;
+        height: 37px;
+    }
+}

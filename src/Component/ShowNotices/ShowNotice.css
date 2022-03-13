@@ -29,4 +29,26 @@
 .mar2{
     background-color: #d3d0d0;
 }
+@media only screen and (max-width: 767px) {
+    .marquee {
+        height: 30%;
+        width:100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #d3d0d0;
+        margin-top: 14px;
+    
+    }
+    .marqueeContentContainer {
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: space-evenly;
+        height: 100%;
+        -moz-animation: scroll-left 20s linear infinite;
+        -webkit-animation: scroll-left 20s linear infinite;
+        animation: scroll-left 20s linear infinite;
+    }
+}
+
    

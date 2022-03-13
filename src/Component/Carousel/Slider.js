@@ -15,7 +15,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
 
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
@@ -26,7 +26,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -37,7 +37,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
 
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -48,7 +48,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
 
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
