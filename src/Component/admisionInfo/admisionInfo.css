@@ -1,0 +1,11 @@
+.addmisionInfo{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.addmisionInfo{
+    font-weight: bold;
+    font-size: 40px;
+}

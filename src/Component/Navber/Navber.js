@@ -15,7 +15,7 @@ const Navber = () => {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 
         <Nav className="me-auto">
-          <Link to="/"> Home</Link>
+          <Link to="/"> প্রচ্ছদ</Link>
 
         </Nav>
 

@@ -10,7 +10,7 @@ const Slider = () => {
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
-                        src={"https://i.ibb.co/6b9xF3R/pexels-max-fischer-5212345.jpg"}
+                        src={"https://i.ibb.co/k8j96QC/musa1.jpgx"}
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -21,7 +21,7 @@ const Slider = () => {
                 <Carousel.Item interval={500}>
                     <img
                         className="d-block w-100"
-                        src={"https://i.ibb.co/CsbvxZN/pexels-pavel-danilyuk-8423425.jpg"}
+                        src={"https://i.ibb.co/1RWW9FJ/musa3.jpg"}
                         alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -32,7 +32,18 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={"https://i.ibb.co/Q9zqfn5/pexels-max-fischer-5212334.jpg"}
+                        src={"https://i.ibb.co/HV5G8Pk/musa4.jpg"}
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={"https://i.ibb.co/44DgDZH/musa2.jpg"}
                         alt="Third slide"
                     />
                     <Carousel.Caption>

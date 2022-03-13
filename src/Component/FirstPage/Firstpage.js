@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "../FirstPage/Firstpage.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Firstpage = () => {
     return (
@@ -10,7 +13,7 @@ const Firstpage = () => {
                     <h5 className='school-history-title'>প্রতিষ্ঠানের ইতিহাস
                     </h5>
                     <div class="School-history">
-                        <img style={{ width: "400px", height: "150px", marginRight: "20px" }} src="https://i.ibb.co/KhJpx4s/school-photo.jpg" alt="" />
+                        <img style={{ width: "400px", height: "150px", marginRight: "20px" }} src="https://i.ibb.co/k8j96QC/musa1.jpg" alt="" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur quibusdam magnam provident optio eaque eum deserunt? Asperiores temporibus voluptas dolorem earum consectetur, nam corporis tenetur. Beatae totam optio eos!</p>
                     </div>
                     <div className="teacher-quotes">
@@ -36,7 +39,10 @@ const Firstpage = () => {
                             <h4 className='heading-1'>ছাত্রছাত্রীদের তথ্য</h4>
                             <div class="head-techar-bani">
                                 <img className='img-1' src={'https://i.ibb.co/YbJk62h/students.png'} alt="" />
-                                <p></p>
+                                <FontAwesomeIcon icon={faCoffee} />
+                                <i class="fa-solid fa-mailbox"></i>
+                                <Link className='link' to="/studentSite">ছাত্রছাত্রীর আসন সংখ্যা</Link><br />
+                                <Link to="/admisonInfo">ভর্তি তথ্য</Link>
                             </div>
                         </div>
                         <div className='first-hadinf-2'>
