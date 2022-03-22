@@ -1,0 +1,10 @@
+.BannerImg{
+    width: 1296px;
+    height: 278px;
+}
+@media only screen and (max-width: 767px) {
+    .BannerImg{
+        width: 100%;
+        height: 100%    ;
+    }
+}

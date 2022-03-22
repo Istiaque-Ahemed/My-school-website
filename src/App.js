@@ -13,6 +13,7 @@ import Notices from './Component/Notices/Notices';
 import Firstpage from './Component/FirstPage/Firstpage';
 import StudentSite from './Component/StudentsSite/StudentSite';
 import AdmisionInfo from './Component/admisionInfo/AdmisionInfo';
+import HeaderBanner from './Component/HeaderBanner/HeaderBanner';
 
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={[<Header />, <Navber />, <Slider />, <Notices />, <Firstpage />, <StudentSite />, <AdmisionInfo />]}></Route>
-          <Route path="/studentSite" element={[<Header />, <Navber />, <StudentSite />]}></Route>
-          <Route path="/admisonInfo" element={[<Header />, <Navber />, <AdmisionInfo />]}></Route>
+          <Route path="/" element={[<HeaderBanner />, <Navber />, <Slider />, <Notices />, <Firstpage />, <StudentSite />, <AdmisionInfo />]}></Route>
+          <Route path="/studentSite" element={[<HeaderBanner />, <Navber />, <StudentSite />]}></Route>
+          <Route path="/admisonInfo" element={[<HeaderBanner />, <Navber />, <AdmisionInfo />]}></Route>
 
         </Routes>
       </BrowserRouter>

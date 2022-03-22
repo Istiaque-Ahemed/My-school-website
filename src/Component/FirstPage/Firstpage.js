@@ -13,8 +13,10 @@ const Firstpage = () => {
                     <h5 className='school-history-title'>প্রতিষ্ঠানের ইতিহাস
                     </h5>
                     <div class="School-history">
-                        <img style={{ width: "400px", height: "150px", marginRight: "20px" }} src="https://i.ibb.co/k8j96QC/musa1.jpg" alt="" />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur quibusdam magnam provident optio eaque eum deserunt? Asperiores temporibus voluptas dolorem earum consectetur, nam corporis tenetur. Beatae totam optio eos!</p>
+                        <img style={{ width: "353px", height: "150px", marginRight: "20px" }} src="https://i.ibb.co/k8j96QC/musa1.jpg" alt="" />
+
+                        <p className='school-history-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur quibusdam magnam provident optio eaque eum deserunt? Asperiores temporibus voluptas dolorem earum consectetur, nam corporis tenetur. Beatae totam optio eos!</p>
+
                     </div>
                     <div className="teacher-quotes">
                         <div className='first-hadinf'>
@@ -22,7 +24,7 @@ const Firstpage = () => {
                             </h4>
                             <div class="head-techar-bani">
                                 <img className='img' src={'https://i.ibb.co/72vGTqK/techar-1.gif'} alt="" />
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minus reprehenderit sed provident distinctio est similique recusandae totam nisi asperiores porro doloremque neque delectus eligendi quas et dolore maxime eos molestias, tempore vitae quo reiciendis deleniti consectetur! Perferendis dolorum, harum voluptatem tempora repellat possimus? Asperiores cupiditate sapiente eos dicta soluta?</p>
+                                <p className='teacher-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minus reprehenderit sed provident distinctio est similique recusandae totam nisi asperiores porro doloremque neque delectus eligendi quas et dolore maxime eos molestias, tempore vitae quo reiciendis deleniti consectetur! Perferendis dolorum, harum voluptatem tempora repellat possimus? Asperiores cupiditate sapiente eos dicta soluta?</p>
                             </div>
                         </div>
                         <div>
@@ -30,7 +32,7 @@ const Firstpage = () => {
                             </h4>
                             <div class="head-techar-bani">
                                 <img className='img' src={'https://i.ibb.co/dfQKJW8/assiten-techar.gif'} alt="" />
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minus reprehenderit sed provident distinctio est similique recusandae totam nisi asperiores porro doloremque neque delectus eligendi quas et dolore maxime eos molestias, tempore vitae quo reiciendis deleniti consectetur! Perferendis dolorum, harum voluptatem tempora repellat possimus? Asperiores cupiditate sapiente eos dicta soluta?</p>
+                                <p className='teacher-p'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minus reprehenderit sed provident distinctio est similique recusandae totam nisi asperiores porro doloremque neque delectus eligendi quas et dolore maxime eos molestias, tempore vitae quo reiciendis deleniti consectetur! Perferendis dolorum, harum voluptatem tempora repellat possimus? Asperiores cupiditate sapiente eos dicta soluta?</p>
                             </div>
                         </div>
                     </div>
