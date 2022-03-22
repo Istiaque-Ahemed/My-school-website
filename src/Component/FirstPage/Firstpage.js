@@ -32,7 +32,7 @@ const Firstpage = () => {
                             </h4>
                             <div class="head-techar-bani">
                                 <img className='img' src={'https://i.ibb.co/dfQKJW8/assiten-techar.gif'} alt="" />
-                                <p className='teacher-p'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minus reprehenderit sed provident distinctio est similique recusandae totam nisi asperiores porro doloremque neque delectus eligendi quas et dolore maxime eos molestias, tempore vitae quo reiciendis deleniti consectetur! Perferendis dolorum, harum voluptatem tempora repellat possimus? Asperiores cupiditate sapiente eos dicta soluta?</p>
+                                <p className='teacher-pp'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minus reprehenderit sed provident distinctio est similique recusandae totam nisi asperiores porro doloremque neque delectus eligendi quas et dolore maxime eos molestias, tempore vitae quo reiciendis deleniti consectetur! Perferendis dolorum, harum voluptatem tempora repellat possimus? Asperiores cupiditate sapiente eos dicta soluta?</p>
                             </div>
                         </div>
                     </div>
