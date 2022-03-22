@@ -2,6 +2,12 @@
     width: 1296px;
     height: 278px;
 }
+@media screen and (max-width:1200px) {
+    .BannerImg{
+        width: 1116px;
+        height:100%;
+    }
+}
 @media only screen and (max-width: 767px) {
     .BannerImg{
         width: 100%;
